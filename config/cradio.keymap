@@ -52,11 +52,11 @@
         right_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│   ESC    │  V up    │  Spot    │  V down  │ Backspace|   │  [       │  {       │  }       │  ]       │  %       │
+        //│   ESC    │  V up    │  Spot    │  V down  │ Backspace|   │  [       │  {       │  }       │  ]       │  ~       │
             &kp ESC &kp C_VOLUME_DOWN &kp LBRC &kp C_VOLUME_UP &kp BSPC &kp LBKT  &kp LBRC   &kp RBRC   &kp RBKT   &kp TILDE
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  !       │  , <     │ . >      │ DELETE   │  ENTER   │   │  *       │  -       │  =       │  \       │  `       │
-            &kp EXCL   &kp COMMA  &kp DOT   &kp DEL   &kp ENTER      &kp ASTRK  &kp MINUS  &kp EQUAL  &kp BSLH   &kp GRAVE
+        //│  !       │  , <     │ . >      │ DELETE   │  ENTER   │   │  *       │  -       │  =       │  \       │ ENTER    │
+            &kp EXCL   &kp COMMA  &kp DOT   &kp DEL   &kp ENTER      &kp ASTRK  &kp MINUS  &kp EQUAL  &kp BSLH   &kp ENTER
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │  ' "     │  _       │  +       │  │       │          │
             &kp F8     &kp F12     &kp C_PLAY_PAUSE     &kp C_PREVIOUS     &kp C_NEXT         &kp SQT   &kp UNDER  &kp PLUS   &kp PIPE   &trans
